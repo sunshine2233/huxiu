@@ -1,0 +1,144 @@
+# huxiu
+前端实习
+body {
+  font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+span{
+  font-family: 'icomoon';
+}
+/* 版心 */
+.w {
+  width: 1094px;
+  margin: 0 auto;
+}
+/* shortcut */
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+
+.top-box {
+    position: relative;
+    width: 1912px;
+    height: 100px;
+ 
+}
+/* shortcut部分 */
+.top-box .shortcut {
+  
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 29.6px;
+
+  background-color: rgb(39, 40, 45);
+}
+.top-box .shortcut .center{
+    height: 29.6px;
+    line-height:29.6px ;
+}
+.top-box .shortcut ul li {
+  float: left;
+  height: 29.6px;
+  margin: 0 30px;
+  font-size: 12px;
+}
+.top-box .shortcut ul li a {
+  color: #fff;
+}
+/* header部分 */
+.top-box .header {
+  position: fixed;
+  top: 29.6px;
+  width: 100%;
+  height: 70.14px;
+  line-height:70.14px ;
+  background-color: #fff;
+}
+.top-box .header a{
+    color:#27282d ;
+}
+.top-box .header img{
+          width: 44px;
+          height: 32px;
+          margin-left: 0px;
+}
+.top-box .header ul .imge{
+    margin: 0;
+}
+.top-box .header ul li{
+          float: left;
+          font-size: 18px;
+          margin: 0 40px;
+        
+}
+.top-box .header ul li button{
+        float: right;
+        width: 78px;
+        height: 30px;
+        margin-top: 20px;
+        border: 1px solid #27282d;
+        border-radius: 22px;
+        font-size: 14px;
+       
+}
+.top-box .header  li button:hover{
+    color: #fff;
+    background-color:#27282d ;
+}
+/* top-box end */
+/* footer start */
+footer{
+    height: 388px;padding: 60px 0 50px;
+    background-color: #27282d;
+}
+footer ul{
+    height: 90px;
+    margin-bottom: 70px;
+}
+footer .w  .first-line .passage{
+    margin-right: 0;
+}
+footer .w .first-line li{
+    float: left;
+    width: 317px;
+    height: 90px;
+    margin-right: 65px;
+    font-size: 14px;
+}
+/* 第二行 */
+footer  section .circle{
+    float: left;
+    width: 215px;
+    height: 48px;
+    margin: 0 145px 0 0;
+}
+footer  section .circle li{
+  display: inline-block;
+    width: 48px;
+    height: 48px;
+    margin-right: 18px ;
+    line-height: 48px;
+    text-align: center;
+    background-color: #d1d1d1;
+    border-radius: 50%;
+}
+footer  section .circle li span{
+  color:#27282d ;
+  width: 40px;
+  height:40px ;
+}
+footer  section .link{
+  
+  display: inline-block;
+  margin: 0 ;
+}
+footer  .w section .link li{
+  float: left;
+  font-size: 14px;
+   height: 48px;
+   margin:0 28px;
+}
+/* footer结束 */
