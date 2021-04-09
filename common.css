@@ -89,6 +89,124 @@ span{
     background-color:#27282d ;
 }
 /* top-box end */
+/* home部分开始 */
+.home-left{
+     float: left;
+     width: 760px;
+    
+}
+.home  .home-left .img-slider{
+      width: 760px;
+      height: 428px;
+      background-color: #27282d;
+
+}
+/* 文集部分 */
+.home  .home-left .para{
+  width: 760px;
+  height: 210px;
+  margin-top: 20px;
+  
+}
+.home  .home-left .para img{
+    width: 315px;
+    height: 210px;
+}
+.home  .home-left .para .news{
+  float: right;
+}
+.home  .home-left .para .line{
+  width: 430px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #27282d;
+}
+
+.home  .home-left .para .title-box{
+  width: 430px;
+  height: 39px;
+  color: black;
+  font-size: 20px;
+}
+.home  .home-left .para .title-box a{
+  float: right;
+  color:#27282d;
+  font-size: 12px;
+}
+.home  .home-left .para .more.div{
+  float: right;
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-left: 7px solid #ff6060;
+    border-bottom: 4px solid transparent;
+}
+.home  .home-left .para  h1{
+  width: 430px;
+  height: 36px;
+  margin-top: 36px;
+  font-weight: 400;
+  font-size: 28px;
+  color: #27282d;
+}
+.home  .home-left .para p{
+  width: 430px;
+  height: 48px;
+  margin-top: 24px;
+  color: #27282d;
+}
+/* 最新部分 */
+.home  .home-left .latest{
+  width: 909px;
+  height: 985px;
+  margin-top: 20px;
+
+}
+.home-left .latest div{
+  float: left;
+  width: 243px;
+  height: 289px;
+  margin-right: 14px;
+  margin-bottom: 16px;
+  background-color: black;
+}
+ .home-left .latest .line{
+  width: 760px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #27282d;
+}
+
+.home-left .latest  .title-box{
+  width: 760px;
+  height: 39px;
+  background-color: #fff;
+  color: black;
+  font-size: 20px;
+}
+.home-left .latest  .title-box a{
+  float: right;
+  color:#27282d;
+  font-size: 12px;
+}
+.home-left .latest  .title-box div{
+  float: right;
+  width: 0;
+  height: 0;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-color: #fff;
+  border-top: 4px solid transparent;
+  border-left: 7px solid #ff6060;
+    border-bottom: 4px solid transparent;
+}
+
+.home-right{
+  float: right;
+  width: 317px;
+  height: 1671px;
+  background-color: pink;
+}
 /* footer start */
 footer{
     height: 388px;padding: 60px 0 50px;
