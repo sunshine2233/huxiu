@@ -1,0 +1,465 @@
+body {
+  font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?3vuk9c");
+  src: url("../fonts/icomoon.eot?3vuk9c#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?3vuk9c") format("truetype"),
+    url("../fonts/icomoon.woff?3vuk9c") format("woff"),
+    url("../fonts/icomoon.svg?3vuk9c#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+span {
+  font-family: "icomoon";
+}
+/* 版心 */
+.w {
+  width: 1094px;
+  margin: 0 auto;
+}
+/* shortcut */
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+
+.top-box {
+  position: relative;
+  width: 1912px;
+  height: 100px;
+}
+/* shortcut部分 */
+.top-box .shortcut {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 29.6px;
+
+  background-color: rgb(39, 40, 45);
+}
+.top-box .shortcut .center {
+  height: 29.6px;
+  line-height: 29.6px;
+}
+.top-box .shortcut ul li {
+  float: left;
+  height: 29.6px;
+  margin: 0 30px;
+  font-size: 12px;
+}
+.top-box .shortcut ul li a {
+  color: #fff;
+}
+/* header部分 */
+.top-box .header {
+  position: fixed;
+  top: 29.6px;
+  width: 100%;
+  height: 70.14px;
+  line-height: 70.14px;
+  background-color: #fff;
+}
+.top-box .header a {
+  color: #27282d;
+}
+.top-box .header img {
+  width: 44px;
+  height: 32px;
+  margin-left: 0px;
+}
+.top-box .header ul .imge {
+  margin: 0;
+}
+.top-box .header ul li {
+  float: left;
+  font-size: 18px;
+  margin: 0 40px;
+}
+.top-box .header ul li button {
+  float: right;
+  width: 78px;
+  height: 30px;
+  margin-top: 20px;
+  border: 1px solid #27282d;
+  border-radius: 22px;
+  font-size: 14px;
+}
+.top-box .header li button:hover {
+  color: #fff;
+  background-color: #27282d;
+}
+/* top-box end */
+/* home部分开始 */
+.home-left {
+  float: left;
+  width: 760px;
+}
+.home .home-left .img-slider {
+  width: 760px;
+  height: 428px;
+  background-color: #27282d;
+}
+/* 文集部分 */
+.home .home-left .para {
+  width: 760px;
+  height: 210px;
+  margin-top: 20px;
+}
+.home .home-left .para img {
+  width: 315px;
+  height: 210px;
+}
+.home .home-left .para .news {
+  float: right;
+}
+.home .home-left .para .line {
+  width: 430px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #27282d;
+}
+
+.home .home-left .para .title-box {
+  width: 430px;
+  height: 39px;
+  color: black;
+  font-size: 20px;
+}
+.home .home-left .para .title-box a {
+  float: right;
+  color: #27282d;
+  font-size: 12px;
+}
+.home .home-left .para .more.div {
+  float: right;
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-left: 7px solid #ff6060;
+  border-bottom: 4px solid transparent;
+}
+.home .home-left .para h1 {
+  width: 430px;
+  height: 36px;
+  margin-top: 36px;
+  font-weight: 400;
+  font-size: 28px;
+  color: #27282d;
+}
+.home .home-left .para p {
+  width: 430px;
+  height: 48px;
+  margin-top: 24px;
+  color: #27282d;
+}
+/* 最新部分 */
+.home .home-left .latest {
+  width: 909px;
+  height: 985px;
+  margin-top: 20px;
+}
+.home-left .latest div {
+  float: left;
+  width: 243px;
+  height: 289px;
+  margin-right: 14px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  background-color: black;
+}
+.home-left .latest .line {
+  width: 760px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #27282d;
+}
+
+.home-left .latest .title-box {
+  width: 760px;
+  height: 39px;
+  background-color: #fff;
+  color: black;
+  font-size: 20px;
+}
+.home-left .latest .title-box a {
+  float: right;
+  color: #27282d;
+  font-size: 12px;
+}
+.home-left .latest .title-box div {
+  float: right;
+  width: 0;
+  height: 0;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-color: #fff;
+  border-top: 4px solid transparent;
+  border-left: 7px solid #ff6060;
+  border-bottom: 4px solid transparent;
+}
+.home-left .latest img {
+  width: 243px;
+  height: 137px;
+  border-radius: 4px 4px 0 0;
+}
+.home-left .latest .content {
+  position: relative;
+  width: 243px;
+  height: 152px;
+  padding: 13px 12px;
+  border-radius: 0 0 4px 4px;
+
+  background-color: rgb(244, 244, 244);
+}
+.home-left .latest h5 {
+  font-size: 17px;
+  color: #27282d;
+  font-weight: 400;
+}
+.home-left .latest span {
+  position: absolute;
+  top: 120px;
+  left: 215px;
+  font-size: 16px;
+  color: #bfbfbf;
+}
+.home-left .latest .left {
+  position: absolute;
+  top: 120px;
+  left: 190px;
+}
+/* home-left更多部分 */
+.home-left .latest .more {
+  width: 752px;
+  height: 36px;
+  margin-bottom: 0px;
+  background-color: #fff;
+}
+.home-left .latest .more a {
+  float: left;
+  color: black;
+}
+/* 小三角 */
+.home-left .latest .more div {
+  float: right;
+  width: 0;
+  height: 0;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-color: #fff;
+  border-left: 4px solid transparent;
+  border-top: 7px solid #ff6060;
+  border-right: 4px solid transparent;
+}
+
+/* home左边部分结束 */
+.home-right {
+  float: right;
+  width: 317px;
+  height: 1671px;
+  background-color: pink;
+}
+/* home部分结束 */
+/* 会员部分开始 */
+.home-center .center-box .line {
+  width: 1094px;
+  height: 5px;
+  margin-bottom: 5px;
+  border-radius: 2px;
+  background-color: #27282d;
+}
+
+.home-center .center-box .title-box {
+  width: 1094px;
+  height: 39px;
+  color: black;
+  font-size: 18px;
+}
+.home-center .center-box .title-box a {
+  float: right;
+  color: #27282d;
+  font-size: 12px;
+}
+.home-center .center-box .content {
+  width: 1109px;
+  height: 299px;
+}
+.home-center .center-box .content div {
+  float: left;
+  width: 262px;
+  height: 299px;
+  margin-right: 15px;
+  background-color: black;
+}
+.home-center .center-box img {
+  width: 262px;
+  height: 137px;
+  border-radius: 4px 4px 0 0;
+}
+.home-center .center-box .passage .box {
+  position: relative;
+  width: 262px;
+  height: 162px;
+  padding: 13px 12px;
+  border-radius: 0 0 4px 4px;
+
+  background-color: rgb(244, 244, 244);
+}
+.home-center .center-box h5 {
+  font-size: 16px;
+  color: #27282d;
+  font-weight: 400;
+}
+.home-center .center-box span {
+  position: absolute;
+  top: 120px;
+  left: 215px;
+  font-size: 16px;
+  color: #bfbfbf;
+}
+.home-center .center-box .left {
+  position: absolute;
+  top: 120px;
+  left: 190px;
+}
+/* .home-center更多部分 */
+.home-center .center-box .more {
+  width: 752px;
+  height: 36px;
+  background-color: #fff;
+}
+.home-center .center-box .more a {
+  float: left;
+  margin-top: 5px;
+  color: black;
+}
+/* 小三角 */
+.home-center .center-box .more div {
+  float: right;
+  width: 0;
+  height: 0;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-color: #fff;
+  border-top: 4px solid transparent;
+  border-left: 7px solid #ff6060;
+  border-bottom: 4px solid transparent;
+}
+/* homecenter深度栏 */
+.home-center .it  {
+  width: 1094px;
+  height: 278px;
+  
+}
+.home-center .it .para-left{
+  float: left;
+}
+.home-center .it img {
+  width: 494px;
+  height: 278px;
+}
+.home-center .it .news {
+  position: relative;
+  float: right;
+  width: 587px;
+  height: 278px;
+}
+.home-center .it .line {
+  width: 584px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #27282d;
+}
+
+.home-center .it .news h4 {
+  width: 584px;
+  height: 36px;
+  font-weight: 400;
+  color: black;
+  font-size: 20px;
+}
+
+
+.home-center .it  .news  h1 {
+  width: 584px;
+  height: 30px;
+  margin-top: 80px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #27282d;
+}
+.home-center .it  .news   p {
+  width: 584px;
+  height: 14px;
+  margin-top: 24px;
+  color: #999;
+}
+.home-center .it  .news  .left{
+  position: absolute;
+  top: 230px;
+  left: 450px;
+}
+.home-center .it  .news span{
+  position: absolute;
+  top: 230px;
+  left: 500px;
+  font-size: 16px;
+  color: #bfbfbf;
+}
+/* footer start */
+footer {
+  height: 388px;
+  padding: 60px 0 50px;
+  background-color: #27282d;
+}
+footer ul {
+  height: 90px;
+  margin-bottom: 70px;
+}
+footer .w .first-line .passage {
+  margin-right: 0;
+}
+footer .w .first-line li {
+  float: left;
+  width: 317px;
+  height: 90px;
+  margin-right: 65px;
+  font-size: 14px;
+}
+/* 第二行 */
+footer section .circle {
+  float: left;
+  width: 215px;
+  height: 48px;
+  margin: 0 145px 0 0;
+}
+footer section .circle li {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  margin-right: 18px;
+  line-height: 48px;
+  text-align: center;
+  background-color: #d1d1d1;
+  border-radius: 50%;
+}
+footer section .circle li span {
+  color: #27282d;
+  font-size: 20px;
+}
+footer section .link {
+  display: inline-block;
+  margin: 0;
+}
+footer .w section .link li {
+  float: left;
+  font-size: 14px;
+  height: 48px;
+  margin: 0 28px;
+}
+/* footer结束 */
