@@ -35,6 +35,7 @@ span {
 }
 /* shortcut部分 */
 .top-box .shortcut {
+  z-index: 1;
   position: fixed;
   top: 0px;
   width: 100%;
@@ -58,6 +59,7 @@ span {
 /* header部分 */
 .top-box .header {
   position: fixed;
+  z-index: 1;
   top: 29.6px;
   width: 100%;
   height: 70.14px;
@@ -351,12 +353,11 @@ span {
   border-bottom: 4px solid transparent;
 }
 /* homecenter深度栏 */
-.home-center .it  {
+.home-center .it {
   width: 1094px;
   height: 278px;
-  
 }
-.home-center .it .para-left{
+.home-center .it .para-left {
   float: left;
 }
 .home-center .it img {
@@ -384,8 +385,7 @@ span {
   font-size: 20px;
 }
 
-
-.home-center .it  .news  h1 {
+.home-center .it .news h1 {
   width: 584px;
   height: 30px;
   margin-top: 80px;
@@ -393,22 +393,107 @@ span {
   font-size: 20px;
   color: #27282d;
 }
-.home-center .it  .news   p {
+.home-center .it .news p {
   width: 584px;
   height: 14px;
   margin-top: 24px;
   color: #999;
 }
-.home-center .it  .news  .left{
+.home-center .it .news .left {
   position: absolute;
   top: 230px;
   left: 450px;
 }
-.home-center .it  .news span{
+.home-center .it .news span {
   position: absolute;
   top: 230px;
   left: 500px;
   font-size: 16px;
+  color: #bfbfbf;
+}
+/* home-center结束 */
+/* 热文推荐部分开始 */
+.article-hot {
+  width: 1094px;
+  margin-top: 20px;
+}
+.article-hot .line-box {
+  width: 1094px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #27282d;
+}
+
+.article-hot .title-box {
+  width: 1094px;
+  height: 36px;
+  padding-bottom: 3px 0;
+  background-color: #fff;
+  color: black;
+  font-size: 18px;
+}
+.article-hot .title-box a {
+  float: right;
+  height: 36px;
+  margin-top: 5px;
+  color: #27282d;
+  font-size: 12px;
+}
+.article-hot .title-box div {
+  float: right;
+  width: 0;
+  height: 0;
+  margin-top: 6px;
+  margin-left: 5px;
+  background-color: #fff;
+  border-top: 4px solid transparent;
+  border-left: 7px solid #ff6060;
+  border-bottom: 4px solid transparent;
+}
+/* 热文推荐内容开始 */
+.article-hot .content-box{
+  width: 1110px;
+}
+.article-hot .content-box .new {
+  float: left;
+  width: 539px;
+  height: 184px;
+  margin: 0 16px 16px 0;
+}
+.article-hot .content-box a{
+  width: 529px;
+  height: 184px;
+  color: #27282d;
+  font-size: 16px;
+}
+.article-hot .content-box img{
+  float: left;
+  width: 327px;
+  height: 184px;
+}
+.article-hot .content-box .para{
+  float: left;
+  position: relative;
+  width: 212px;
+  height: 184px;
+  padding: 32px 13px 11px 13px;
+  background-color: rgb(244,244,244);
+}
+.article-hot p{
+  width: 186px;
+  height: 72px;
+  line-height: 24px;
+}
+.article-hot .left{
+  position: absolute;
+  top: 160px;
+  left: 130px;
+}
+.article-hot span{
+  position: absolute;
+  top: 160px;
+  left: 165px;
+  font-size: 13px;
   color: #bfbfbf;
 }
 /* footer start */
