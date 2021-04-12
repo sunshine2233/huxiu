@@ -7,11 +7,10 @@
     <title>虎嗅网</title>
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/common.css" />
-    <style>
-      </style>
+   
 </head>
-  </head>
-  <body>
+  
+  <body style="overflow-x: hidden">
     <!-- top-box开始 -->
     <section class="top-box">
     <!-- 快捷导航模块start -->
@@ -59,9 +58,70 @@
     <!-- home部分开始 -->
     <section class="home w clearfix">
       <div class="home-left">
-          <div class="img-slider">
-
-          </div>
+         <!-- 轮播图部分开始 -->
+         <section class="carousel" aria-label="Gallery">
+            <ol class="carousel__viewport">
+              <li id="carousel__slide1"
+                  tabindex="0"
+                  class="carousel__slide">
+                <div class="carousel__snapper">
+                  <a href="#carousel__slide4"
+                     class="carousel__prev">Go to last slide</a>
+                  <a href="#carousel__slide2"
+                     class="carousel__next">Go to next slide</a>
+                </div>
+              </li>
+              <li id="carousel__slide2"
+                  tabindex="0"
+                  class="carousel__slide">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide1"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide3"
+                   class="carousel__next">Go to next slide</a>
+              </li>
+              <li id="carousel__slide3"
+                  tabindex="0"
+                  class="carousel__slide">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide2"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide4"
+                   class="carousel__next">Go to next slide</a>
+              </li>
+              <li id="carousel__slide4"
+                  tabindex="0"
+                  class="carousel__slide">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide3"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide1"
+                   class="carousel__next">Go to first slide</a>
+              </li>
+            </ol>
+            <aside class="carousel__navigation">
+              <ol class="carousel__navigation-list">
+                <li class="carousel__navigation-item">
+                  <a href="#carousel__slide1"
+                     class="carousel__navigation-button">Go to slide 1</a>
+                </li>
+                <li class="carousel__navigation-item">
+                  <a href="#carousel__slide2"
+                     class="carousel__navigation-button">Go to slide 2</a>
+                </li>
+                <li class="carousel__navigation-item">
+                  <a href="#carousel__slide3"
+                     class="carousel__navigation-button">Go to slide 3</a>
+                </li>
+                <li class="carousel__navigation-item">
+                  <a href="#carousel__slide4"
+                     class="carousel__navigation-button">Go to slide 4</a>
+                </li>
+              </ol>
+            </aside>
+          </section>
+            <!-- 轮播图结束end -->
+            <!-- para部分start -->
           <div class="para">
               <a  class="para-left"  href="#"><img src="images/报纸.jpg"></a>
               <div class="news">
@@ -80,8 +140,8 @@
                      
                     </div>
                </div>
-       
-             <!-- latest最新栏开始 -->
+            <!-- para end -->
+            <!-- latest最新栏开始 -->
              <div class="latest">
                <div class="line"></div>
                <div class="title-box">
