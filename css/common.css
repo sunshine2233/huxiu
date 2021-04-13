@@ -83,15 +83,41 @@ span {
   font-size: 18px;
   margin: 0 40px;
 }
+.top-box .header .rightinfo{
+  float: right;
+  width: 400px;
+  margin-left: 0;
+ margin-right: 0;
+}
+.top-box .header #rentou{
+  float: right;
+  width: 28px;
+  height: 28px;
+}
+.top-box .header #rentou img{
+  width: 28px;
+  height: 28px;
+}
 .top-box .header ul li button {
   float: right;
   width: 78px;
   height: 30px;
   margin-top: 20px;
+  margin-right: 50px;
   border: 1px solid #27282d;
   border-radius: 22px;
   font-size: 14px;
 }
+.top-box .header span{
+  float: right;
+  font-size: 25px;
+  margin-right: 50px;
+  color: #bfbfbf;
+}
+.top-box .header span:hover{
+  color: #27282d;
+}
+
 .top-box .header li button:hover {
   color: #fff;
   background-color: #27282d;
@@ -782,3 +808,67 @@ footer .w section .link li {
   margin: 0 28px;
 }
 /* footer结束 */
+/* 登录注册页面部分 */
+
+.log-in {
+position: relative;
+width: 1359px;
+height: 921px;
+display: none;
+}
+.mask {
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.6);
+z-index: 2;
+}
+.login-box {
+position: fixed;
+top: 50%;
+left: 50%;
+width: 380px;
+height: 476px;
+padding: 30px;
+margin-left: -185px;
+margin-top:-208px ;
+border-radius: 4px;
+background-color: #fff;
+box-shadow: 0 10px 20px rgb(0 0 0 / 24%);
+padding: 30px;
+font-weight: 700;
+overflow: hidden;
+z-index: 3;
+}
+
+
+.login input{
+  -webkit-appearance:none;
+-moz-appearance: none;
+  width: 320px;
+  height: 36px;
+  margin-bottom: 20px;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  
+  background: none;
+  padding-left: 16px;
+  font-size: 12px;
+  line-height: 24px;
+}
+.login button{
+  width: 320px;
+  height: 40px;
+  margin-bottom: 5px;
+  background-color: #27282d;
+  color: #fff;
+}
+.login p{
+  color: #27282d;
+}
+.login #login_sucss{
+  margin-left: 50px;
+  color: #ff6060;
+}

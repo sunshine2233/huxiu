@@ -45,7 +45,12 @@
                     <li><a href="#">视频</a></li>
                     <li><a href="#">24小时</a></li>
                     <li><a href="#">专栏更新</a></li>
-                    <li>
+                    <li class="rightinfo">
+                     <div id="rentou">
+                        <img src="images/user.jpg.png" >
+                     </div>
+                        <span></span>
+                        
                         <button>投稿</button>
                     </li>
                 </ul>
@@ -622,5 +627,84 @@
             </div>
     </footer>
     <!-- footer部分结束 -->
+    <!-- 登录注册页面开始 -->
+    
+    <section id="log-in" class="login">
+      <div class="mask"></div>
+      <div class="login-box">
+       <p> 用户名：</p>
+		<input type="text" name="user_name" id="user_name" placeholder="请输入用户名" />
+		<br />
+		<p> 密码：</p>
+		<input type="password" name="user_password" id="user_password" value="" placeholder="请输入密码" />
+		<br>
+		<button type="button" id="login">登录</button>
+		<button type="button" id="register">注册</button>
+		<br />
+		<p id="login_sucss"></p>
+      </div>
+    </section>
   </body>
+   <!-- 登录注册js部分 -->
+   <script type="text/javascript" >
+      var login_btn = document.getElementById("login");
+var register_btn = document.getElementById("register");
+var start=document.getElementById("rentou");
+var box=document.getElementById("log-in");
+var bg=document.getElementsByClassName("mask")[0];
+//登陆按钮实现
+start.addEventListener("click",function(){
+    box.style.display='block';
+}           )
+// 注册按钮实先
+bg.addEventListener("click",function(){
+    box.style.display='none';
+}   )
+
+//点击注册触发事件
+register_btn.addEventListener("click",function(){
+    var user_name = document.getElementById("user_name").value;
+    var user_password = document.getElementById("user_password").value;
+    if(user_name.length == 0||user_password.length ==0){
+        alert("请输入需要注册的用户名或密码！");
+    }
+    //注册成功存入localStorage,并且弹回登录界面
+    else{
+        localStorage.setItem(user_name,user_password);
+        document.getElementById("login_sucss").innerHTML = "注册成功!";
+        
+        
+        
+    }
+})
+
+
+// 登录按钮实现
+login_btn.addEventListener("click",function(){
+    var user_name = document.getElementById("user_name").value;
+    var user_password = document.getElementById("user_password").value;
+    var user_nameArr = new Array(localStorage.length);
+    //将储存的记录存入数组中
+    for(i=0;i<localStorage.length;i++){
+        user_nameArr[i] = localStorage.key(i);
+    }
+    if(user_nameArr.includes(user_name)){
+        var store_password = localStorage.getItem(user_name);
+         if(user_password == store_password){
+            //选择弹框
+             document.getElementById("login_sucss").innerHTML = "登录成功!";
+             box.style.display='none';
+             
+         } else{
+             document.getElementById("login_sucss").innerHTML = "密码错误！";
+         }
+    }
+    else{
+        document.getElementById("login_sucss").innerHTML = "用户名不存在!";
+    }
+})
+//注册按钮实现
+
+</script>
+  
 </html>
