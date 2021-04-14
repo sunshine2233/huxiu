@@ -145,6 +145,87 @@ span {
 }
 /* top-box end */
 /* home部分开始 */
+/* home右边开始 */
+.home .home-right {
+  position: relative;
+  float: right;
+  width: 317px;
+  height: 1671px;
+ 
+}
+.home .home-right .title-box{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #fff;
+  width: 317px;
+  height: 31px;
+  border-top:2px solid #27282d;
+  color: #27282d;
+  font-size: 18px;
+}
+.home .home-right .bottom{
+  position: absolute;
+  top:31px ;
+  left: 0px;
+  overflow: hidden;
+  width: 317px;
+  height: 1647px;
+}
+.home .home-right .bottom:hover{
+  animation-play-state:paused;
+}
+.home .home-right .wrap1{
+  width: 317px;
+  height: 1640px;
+  position: absolute;
+  top: 31px;
+  left: 0px;
+  animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: 20s;
+  animation-name: roll1;
+		            }
+.home .home-right .wrap2{
+  width: 317px;
+  height: 1640px;
+  position: absolute;
+  top: 1671px; 
+  left: 0px;
+  animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: 20s;
+  animation-name: roll2;
+		            }
+  @keyframes roll1{
+             0%{left: 0px; top: 31px;}
+             100%{left: 0px; top: -1609px;}
+         }
+@keyframes roll2{
+             0%{left: 0px; top: 1671px;}
+             100%{left: 0px; top: 31px;}
+         }
+.home .home-right .wrap1>div{
+  width: 317px;
+  height: 205px;
+  border-bottom:1px solid #999;
+}
+.home .home-right .wrap2>div{
+  width: 317px;
+  height: 205px;
+}
+.home .home-right .bottom h2{
+  color: #27282d;
+}
+.home .home-right .bottom p{
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #27282d;
+}
+
+
+/* home左边开始 */
 .home-left {
   float: left;
   width: 760px;
@@ -541,12 +622,7 @@ span {
 }
 
 /* home左边部分结束 */
-.home-right {
-  float: right;
-  width: 317px;
-  height: 1671px;
-  background-color: pink;
-}
+
 /* home部分结束 */
 /* 会员部分开始 */
 .home-center .center-box .line {
