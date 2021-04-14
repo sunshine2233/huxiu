@@ -49,11 +49,15 @@ span {
   line-height: 29.6px;
 }
 .top-box .shortcut ul li {
+  position: relative;
   float: left;
+  
   height: 29.6px;
   margin: 0 30px;
   font-size: 12px;
 }
+
+
 .top-box .shortcut ul li a {
   color: #fff;
 }
@@ -213,6 +217,7 @@ span {
 .home .home-right .wrap2>div{
   width: 317px;
   height: 205px;
+  border-bottom:1px solid #999;
 }
 .home .home-right .bottom h2{
   color: #27282d;
@@ -376,7 +381,7 @@ span {
   .carousel__snapper {
     animation-name: tonext, snap;
     animation-timing-function: ease;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
   }
 
@@ -535,6 +540,7 @@ span {
   margin-bottom: 16px;
   border-radius: 4px;
   background-color: black;
+  overflow: hidden;
 }
 .home-left .latest .line {
   width: 760px;
@@ -566,6 +572,7 @@ span {
   border-left: 7px solid #ff6060;
   border-bottom: 4px solid transparent;
 }
+
 .home-left .latest img {
   width: 243px;
   height: 137px;
@@ -580,6 +587,8 @@ span {
 
   background-color: rgb(244, 244, 244);
 }
+
+
 .home-left .latest h5 {
   font-size: 17px;
   color: #27282d;
